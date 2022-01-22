@@ -1,0 +1,59 @@
+body {
+    background-image:url(../../img/blue\ tiles.jpg);
+}
+header {
+    background-color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+.active {
+    background-color: red;
+}
+ th {
+    color: skyblue;
+    font-size: 20px;
+    border: solid black;
+}
+
+.navbar {
+    background-color: white;
+    border: black solid;
+    position: sticky;
+    font-size: 20px;
+    top: 0px;
+    
+}
+
+.dropdown {
+    
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #fffaff;
+    color:#05051d;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    left: 650px; ;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    background: blue;
+    text-align: center;
+}
+
+.profile {
+    background: cyan;
+    
+}
+
+li {
+    text-align: center;
+}
